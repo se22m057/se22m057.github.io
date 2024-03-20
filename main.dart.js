@@ -68,7 +68,7 @@ b9H(a,b){if(a==="Google Inc.")return B.bX
 else if(a==="Apple Computer, Inc.")return B.O
 else if(B.d.B(b,"Edg/"))return B.bX
 else if(a===""&&B.d.B(b,"firefox"))return B.bv
-A.bj("WARNING: failed to detect current browser engine. Assuming this is a Chromium-compatible browser.")
+A.bi("WARNING: failed to detect current browser engine. Assuming this is a Chromium-compatible browser.")
 return B.bX},
 b9J(){var s,r,q,p=null,o=self.window
 o=o.navigator.platform
@@ -7676,7 +7676,7 @@ return A.eY(A.O(A.O(A.O(A.O(A.O(A.O(A.O(A.O(A.O(A.O(A.O(A.O(A.O(A.O(A.O(A.O(A.O(
 co(a){var s,r=$.eG()
 for(s=J.ad(a);s.p();)r=A.O(r,J.F(s.gF(s)))
 return A.eY(r)},
-bj(a){A.a5p(A.f(a))},
+bi(a){A.a5p(A.f(a))},
 ar7(a,b,c,d){return new A.mg(a,b,c.i("@<0>").P(d).i("mg<1,2>"))},
 b4z(){$.a5A()
 return new A.GS()},
@@ -9235,14 +9235,14 @@ _.b=b
 _.c=c
 _.d=d},
 f0(a,b){var s=new A.zW(a,b)
-A.bi(s.gc6(),$.qA(),!0)
+A.bj(s.gc6(),$.qA(),!0)
 return s},
-aSJ(a,b){A.bi(b,$.AV(),!0)
+aSJ(a,b){A.bj(b,$.AV(),!0)
 return new A.uV(b,a)},
-aLl(a,b){A.bi(b,$.a5v(),!0)
+aLl(a,b){A.bj(b,$.a5v(),!0)
 return new A.q4(a,b)},
 acY(){var s=$.b2,r=(s==null?$.b2=$.cy():s).cn(0,"[DEFAULT]")
-A.bi(r,$.cX(),!0)
+A.bj(r,$.cX(),!0)
 return A.oz(new A.c0(r))},
 oz(a){var s,r,q=a.a.a,p=q+"|(default)"
 if($.aJU.al(0,p)){q=$.aJU.h(0,p)
@@ -9254,11 +9254,11 @@ q=r.e
 if(B.d.mM(q,"/"))r.e=B.d.S(q,0,q.length-1)
 $.aJU.l(0,p,r)
 return r},
-aAu(a,b){A.bi(b,$.qA(),!0)
+aAu(a,b){A.bj(b,$.qA(),!0)
 return new A.Js(a,b)},
-aSK(a,b){A.bi(b,$.aIN(),!0)
+aSK(a,b){A.bj(b,$.aIN(),!0)
 return new A.zX(a,b)},
-aSc(a,b){A.bi(b,$.aIQ(),!0)
+aSc(a,b){A.bj(b,$.aIQ(),!0)
 return new A.Hz(a,b)},
 axl(a){var s=A.ft(a,t.N,t.z)
 s.hQ(s,new A.axn())
@@ -9438,7 +9438,7 @@ acA:function acA(){},
 aJT(){var s,r=$.PQ
 if(r==null){r=$.b2
 s=(r==null?$.b2=$.cy():r).cn(0,"[DEFAULT]")
-A.bi(s,$.cX(),!0)
+A.bj(s,$.cX(),!0)
 r=$.PQ=A.aQg(new A.c0(s),"(default)")}return r},
 D1:function D1(){},
 amQ:function amQ(){},
@@ -9469,7 +9469,7 @@ p.l(0,q,r)
 r=$.aWg()
 s=new A.acB()
 p.l(0,s,r)
-A.bi(s,r,!0)
+A.bj(s,r,!0)
 return q},
 PR:function PR(a,b){this.c=null
 this.a=a
@@ -9768,9 +9768,9 @@ _.d=_.c=0
 _.$ti=c},
 jc(a){return $.b16.bG(0,a.a.a,new A.acL(a))},
 aJQ(a,b){return new A.PO(b.e,b.f,b.r,b.w,"firebase_auth",b.b,b.c)},
-aSn(a,b){A.bi(b,$.aIS(),!0)
+aSn(a,b){A.bj(b,$.aIS(),!0)
 return new A.Wf(b,a)},
-av6(a,b){A.bi(b,$.aIR(),!0)
+av6(a,b){A.bj(b,$.aIR(),!0)
 return new A.Wg(a,b)},
 wp:function wp(a,b,c){var _=this
 _.c=null
@@ -10207,21 +10207,21 @@ return s},
 b15(a){var s,r,q
 A.aJS("auth",new A.acK())
 s=A.aPa()
-A.bi(s,$.MJ(),!0)
+A.bj(s,$.MJ(),!0)
 $.aJR=s
 s=$.aWs()
 r=new A.am5()
 q=$.c9()
 q.l(0,r,s)
-A.bi(r,s,!0)
+A.bj(r,s,!0)
 s=$.aWO()
 r=new A.auE()
 q.l(0,r,s)
-A.bi(r,s,!0)
+A.bj(r,s,!0)
 s=$.aWw()
 r=new A.anq()
 q.l(0,r,s)
-A.bi(r,s,!0)},
+A.bj(r,s,!0)},
 PP:function PP(a,b){this.c=a
 this.d=null
 this.a=b},
@@ -10414,7 +10414,7 @@ while(true)switch(s){case 0:p=$.b2
 s=3
 return A.C((p==null?$.b2=$.cy():p).kw(null,a),$async$ad4)
 case 3:o=c
-A.bi(o,$.cX(),!0)
+A.bj(o,$.cX(),!0)
 q=new A.c0(o)
 s=1
 break
@@ -28162,7 +28162,7 @@ _.d=a
 _.e=b
 _.f=c
 _.r=d},
-bi(a,b,c){var s
+bj(a,b,c){var s
 if(c){s=$.c9()
 A.fr(a)
 s=s.a.get(a)===B.dH}else s=!1
@@ -28514,7 +28514,7 @@ _.aq$=a
 _.aQ$=_.b0$=0
 _.b3$=!1},
 aPV(a){var s,r,q,p,o=$.b2,n=(o==null?$.b2=$.cy():o).cn(0,"[DEFAULT]")
-A.bi(n,$.cX(),!0)
+A.bj(n,$.cX(),!0)
 o=A.jc(new A.c0(n))
 s=A.b([],t.aU)
 r=A.b([],t._X)
@@ -32814,7 +32814,7 @@ A.a8t.prototype={
 $1(a){var s
 if(a instanceof A.zc){A.je(B.v,null,t.H).aN(0,new A.a8r(this.b),t.P)
 return}s=this.b
-A.bj("Could not get text from clipboard: "+A.f(a))
+A.bi("Could not get text from clipboard: "+A.f(a))
 s.toString
 s.$1(B.a5.cz(["paste_fail","Clipboard.getData failed",null]))},
 $S:8}
@@ -32838,7 +32838,7 @@ break
 case 4:p=3
 k=o
 n=A.V(k)
-A.bj("copy is not successful "+A.f(n))
+A.bi("copy is not successful "+A.f(n))
 m=A.dC(!1,t.y)
 q=m
 s=1
@@ -32878,8 +32878,8 @@ s.focus()
 s.select()
 r=!1
 try{r=self.document.execCommand("copy")
-if(!r)A.bj("copy is not successful")}catch(p){q=A.V(p)
-A.bj("copy is not successful "+A.f(q))}finally{s.remove()}return r}}
+if(!r)A.bi("copy is not successful")}catch(p){q=A.V(p)
+A.bi("copy is not successful "+A.f(q))}finally{s.remove()}return r}}
 A.acp.prototype={
 xo(a){return A.aK0(new A.zc("Paste is not implemented for this browser."),null,t.N)}}
 A.adh.prototype={
@@ -50150,7 +50150,7 @@ glu(a){var s=this.b.a,r=A.Z(s).i("X<1,uW>")
 return A.a4(new A.X(s,new A.aAv(this),r),!0,r.i("af.E"))},
 $ipo:1}
 A.aAv.prototype={
-$1(a){A.bi(a,$.a5v(),!0)
+$1(a){A.bj(a,$.a5v(),!0)
 return new A.uW(this.a.a,a)},
 $S:356}
 A.Hz.prototype={
@@ -50389,7 +50389,7 @@ f=new A.RT(c,i,j,h)
 $.c9().l(0,f,g)
 g=$.b2
 e=(g==null?$.b2=$.cy():g).cn(0,c)
-A.bi(e,$.cX(),!0)
+A.bj(e,$.cX(),!0)
 f.d=A.aJT().vi(new A.c0(e),i)
 m=f
 p=4
@@ -50546,7 +50546,7 @@ s=c.a
 if(s==null){s=$.b2
 p=(s==null?$.b2=$.cy():s).cn(0,"[DEFAULT]")
 s=new A.c0(p)
-A.bi(p,$.cX(),!0)}o.aS(0,b,s.a.a)
+A.bj(p,$.cX(),!0)}o.aS(0,b,s.a.a)
 s=c.b
 o.aS(0,b,s==null?"(default)":s)
 o.aS(0,b,B.Ca)}else if(c instanceof A.xv){b.aU(0,145)
@@ -50572,7 +50572,7 @@ q.toString
 A.aO(q)
 p=$.b2
 o=(p==null?$.b2=$.cy():p).cn(0,s)
-A.bi(o,$.cX(),!0)
+A.bj(o,$.cX(),!0)
 return A.aJT().vi(new A.c0(o),q).dj(0,r)
 case 131:return new A.qL(b.nw(n.fd(b)))
 case 139:return B.cs
@@ -50626,23 +50626,23 @@ if(b instanceof A.D1){s=b.a
 if(s==null){s=$.b2
 r=(s==null?$.b2=$.cy():s).cn(0,p)
 s=new A.c0(r)
-A.bi(r,$.cX(),!0)}q=this.a
+A.bj(r,$.cX(),!0)}q=this.a
 if(q==null){q=$.b2
 r=(q==null?$.b2=$.cy():q).cn(0,p)
 q=new A.c0(r)
-A.bi(r,$.cX(),!0)}q=s.a.a===q.a.a
+A.bj(r,$.cX(),!0)}q=s.a.a===q.a.a
 s=q}else s=!1
 return s},
 gt(a){var s,r=B.zE.j(0),q=this.a
 if(q==null){q=$.b2
 s=(q==null?$.b2=$.cy():q).cn(0,"[DEFAULT]")
 q=new A.c0(s)
-A.bi(s,$.cX(),!0)}return B.d.gt(r+"(app: "+q.a.a+")")},
+A.bj(s,$.cX(),!0)}return B.d.gt(r+"(app: "+q.a.a+")")},
 j(a){var s,r=B.zE.j(0),q=this.a
 if(q==null){q=$.b2
 s=(q==null?$.b2=$.cy():q).cn(0,"[DEFAULT]")
 q=new A.c0(s)
-A.bi(s,$.cX(),!0)}return r+"(app: "+q.a.a+")"}}
+A.bj(s,$.cX(),!0)}return r+"(app: "+q.a.a+")"}}
 A.amQ.prototype={}
 A.fc.prototype={}
 A.ur.prototype={}
@@ -50683,7 +50683,7 @@ if(p==null){p=q.a
 if(p==null){p=$.b2
 s=(p==null?$.b2=$.cy():p).cn(0,"[DEFAULT]")
 p=new A.c0(s)
-A.bi(s,$.cX(),!0)}p=firebase_core.getApp(p.a.a)
+A.bj(s,$.cX(),!0)}p=firebase_core.getApp(p.a.a)
 p=A.N6(p)
 r=q.b
 p=q.c=A.ba5(p,null,r==null?"(default)":r)}return p},
@@ -51897,7 +51897,7 @@ A.acE.prototype={
 go4(a){var s,r=this.a
 if(r==null){r=$.b2
 s=(r==null?$.b2=$.cy():r).cn(0,"[DEFAULT]")
-A.bi(s,$.cX(),!0)
+A.bj(s,$.cX(),!0)
 return new A.c0(s)}return r},
 sdL(a,b){throw A.c(A.cx("set.currentUser is not implemented"))},
 gnl(){return null}}
@@ -94864,13 +94864,13 @@ return A.C(o.at.xO(f,j),$async$pR)
 case 7:m=d
 l=J.qC(m)
 j=l
-A.bj("Eingeloggt als: "+A.f(j==null?null:j.a.c.a.b))
+A.bi("Eingeloggt als: "+A.f(j==null?null:j.a.c.a.b))
 s=8
 return A.C(A.je(A.d_(0,0,2),null,i),$async$pR)
 case 8:f=o.c
 j=$.b2
 h=(j==null?$.b2=$.cy():j).cn(0,"[DEFAULT]")
-A.bi(h,$.cX(),!0)
+A.bj(h,$.cX(),!0)
 j=A.jc(new A.c0(h))
 j=j.gdL(j)
 f=f.ap1(B.k5,j==null?null:j.a.c.a.a)
@@ -94881,7 +94881,7 @@ break
 case 3:q=2
 e=p
 k=A.V(e)
-A.bj("Fehler beim Einloggen: "+A.f(k))
+A.bi("Fehler beim Einloggen: "+A.f(k))
 f=o.c.AQ(B.k6)
 if(!b.d)b.a.$1(f)
 s=5
@@ -94913,7 +94913,7 @@ i=A.f0(a,a.gc6().d5("User"))
 a=$.b2
 f=(a==null?$.b2=$.cy():a).cn(0,"[DEFAULT]")
 a=$.cX()
-A.bi(f,a,!0)
+A.bj(f,a,!0)
 e=A.jc(new A.c0(f))
 e=e.gdL(e)
 e=e==null?null:e.a.c.a.a
@@ -94924,7 +94924,7 @@ s=!J.aNu(h)?10:11
 break
 case 10:e=$.b2
 f=(e==null?$.b2=$.cy():e).cn(0,"[DEFAULT]")
-A.bi(f,a,!0)
+A.bj(f,a,!0)
 e=A.jc(new A.c0(f))
 e=e.gdL(e)
 e=e==null?null:e.a.c.a.a
@@ -94939,7 +94939,7 @@ d=J.qC(j)
 d=d==null?null:d.a.c.a.b
 c=$.b2
 f=(c==null?$.b2=$.cy():c).cn(0,"[DEFAULT]")
-A.bi(f,a,!0)
+A.bj(f,a,!0)
 a=A.jc(new A.c0(f))
 a=a.gdL(a)
 a=e.ap9(d,B.k5,a==null?null:a.a.c.a.a)
@@ -94950,7 +94950,7 @@ break
 case 3:q=2
 a0=p
 g=A.V(a0)
-A.bj("Fehler bei der Google-Anmeldung: "+A.f(g))
+A.bi("Fehler bei der Google-Anmeldung: "+A.f(g))
 a=o.c.AQ(B.k6)
 if(!a2.d)a2.a.$1(a)
 s=5
@@ -94966,7 +94966,7 @@ var $async$yc=A.y(function(b,c){if(b===1){p=c
 s=q}while(true)switch(s){case 0:q=3
 n=$.b2
 m=(n==null?$.b2=$.cy():n).cn(0,"[DEFAULT]")
-A.bi(m,$.cX(),!0)
+A.bj(m,$.cX(),!0)
 n=A.jc(new A.c0(m))
 n=n.gdL(n)
 s=6
@@ -94978,13 +94978,13 @@ case 3:q=2
 k=p
 n=A.V(k)
 if(n instanceof A.wq){o=n
-switch(o.c){case"provider-already-linked":A.bj("The provider has already been linked to the user.")
+switch(o.c){case"provider-already-linked":A.bi("The provider has already been linked to the user.")
 break
-case"invalid-credential":A.bj("The provider's credential is not valid.")
+case"invalid-credential":A.bi("The provider's credential is not valid.")
 break
-case"credential-already-in-use":A.bj("The account corresponding to the credential already exists, or is already linked to a Firebase User.")
+case"credential-already-in-use":A.bi("The account corresponding to the credential already exists, or is already linked to a Firebase User.")
 break
-default:A.bj("Unknown error.")}}else throw k
+default:A.bi("Unknown error.")}}else throw k
 s=5
 break
 case 2:s=1
@@ -94993,10 +94993,10 @@ case 5:return A.v(null,r)
 case 1:return A.u(p,r)}})
 return A.w($async$yc,r)}}
 A.aid.prototype={
-$1(a){A.bj("Daten erfolgreich hinzugef\xfcgt")},
+$1(a){A.bi("Daten erfolgreich hinzugef\xfcgt")},
 $S:10}
 A.aie.prototype={
-$1(a){A.bj("Fehler beim Hinzuf\xfcgen der Daten: "+A.f(a))},
+$1(a){A.bi("Fehler beim Hinzuf\xfcgen der Daten: "+A.f(a))},
 $S:8}
 A.cH.prototype={
 v6(a,b,c,d){var s=this,r=b==null?s.a:b,q=d==null?s.b:d,p=a==null?s.c:a
@@ -95170,7 +95170,7 @@ b=t.fz
 a=A.bs(a1.y,!0,b)
 a0=A.bs(a1.z,!0,b)
 b=a1.e
-A.bj(b)
+A.bi(b)
 if(b){q.at.ag(0)
 e=new A.aH(d,new A.aj7(),A.Z(d).i("aH<1>"))
 if(!e.ga9(e))A.fv(a1.x,!1).D2(null)
@@ -95200,7 +95200,7 @@ new A.FU(b,j,j,t.fw).avj()
 n=new A.aei(g).a7S(new A.Qd(m,n),"position",5,!1)
 p=A.aLf(n,null,null,n.$ti.i("aj.T"))
 try{q.at=p.dI(new A.ajc(e,q,a1,a,a0))}catch(a3){o=A.V(a3)
-A.bj(o)}}return A.v(null,r)}})
+A.bi(o)}}return A.v(null,r)}})
 return A.w($async$Hc,r)},
 Hf(a,b){return this.ahY(a,b)},
 ahY(a,b){var s=0,r=A.x(t.z),q=this,p,o,n
@@ -95362,24 +95362,23 @@ $1(a){return a.as==="myroute"},
 $S:22}
 A.ajb.prototype={
 $1(a){return this.a0j(a)},
-a0j(a){var s=0,r=A.x(t.H),q=this,p,o,n,m,l,k,j,i,h,g,f
+a0j(a){var s=0,r=A.x(t.H),q=this,p,o,n,m,l,k,j,i,h,g,f,e,d
 var $async$$1=A.y(function(b,c){if(b===1)return A.u(c,r)
-while(true)switch(s){case 0:g=q.a
-f=A.bs(g.c.db,!0,t.ew)
-for(p=J.ad(a),o=A.Z(f).i("aH<1>"),n=t.s;p.p();){m=p.gF(p)
+while(true)switch(s){case 0:e=q.a
+d=A.bs(e.c.db,!0,t.ew)
+for(p=J.ad(a),o=q.b.x,n=t.u,m=A.Z(d).i("aH<1>"),l=t.s;p.p();){k=p.gF(p)
 A.a5p("invite incoming")
-l=m.h(0,"Users")
-k=A.b([],n)
-for(j=J.ad(l);j.p();)k.push(j.gF(j))
-j=m.h(0,"UID")
-i=m.h(0,"driveID")
-m.h(0,"Status")
-m.h(0,"Role")
-h=new A.rT(j,i)
-j=new A.aH(f,new A.aj6(h),o)
-if(!j.ga2(j).p()){g.ul("Neue Einladung!",A.f(m.h(0,"UID"))+" m\xf6chte mit dir ein Taxi teilen!")
-f.push(h)}}A.fI(q.b.x,t.u).A(0,new A.uv(f))
-return A.v(null,r)}})
+j=k.h(0,"Users")
+i=A.b([],l)
+for(h=J.ad(j);h.p();)i.push(h.gF(h))
+h=k.h(0,"UID")
+g=k.h(0,"driveID")
+k.h(0,"Status")
+k.h(0,"Role")
+f=new A.rT(h,g)
+h=new A.aH(d,new A.aj6(f),m)
+if(!h.ga2(h).p()){e.ul("Neue Einladung!",A.f(k.h(0,"UID"))+" m\xf6chte mit dir ein Taxi teilen!")
+d.push(f)}A.fI(o,n).A(0,new A.uv(d))}return A.v(null,r)}})
 return A.w($async$$1,r)},
 $S:212}
 A.aj6.prototype={
@@ -95392,17 +95391,17 @@ var $async$$1=A.y(function(c0,c1){if(c0===1){p=c1
 s=q}while(true)switch(s){case 0:q=3
 e=o.c
 d=e.r
-A.bj(d.length)
+A.bi(d.length)
 c=A.bs(d,!0,t.q5)
 d=o.a
 d.a=c
-A.bj(c.length)
+A.bi(c.length)
 b=e.w
-A.bj(b.length)
+A.bi(b.length)
 a=A.bs(b,!0,t.Tb)
 d.b=a
-A.bj(a.length)
-A.bj("LISTEN TO STREAM")
+A.bi(a.length)
+A.bi("LISTEN TO STREAM")
 b=J.ad(b8),a0=e.f,a1=t.Ad,a2=o.b,a3=e.a,a4=e.b,a5=t.q_,a6=o.d,a7=o.e
 case 6:if(!b.p()){s=7
 break}n=b.gF(b)
@@ -95430,14 +95429,14 @@ b6=m.b
 a8.push(new A.hc("P"+b1,i,b2,b3,"","",b4,!1,!1,new A.aX(l.a,l.b),new A.aX(b5,b6),new A.aj5(d,a2,n,a6,a7,e,i),80,80))}A.a5p("EMIT!!!!!!!!!!!!!!!!!!!!")
 a2.A(0,new A.uw(!0,d.a,d.b))}case 9:s=6
 break
-case 7:a2.A(0,B.Cj)
-q=1
+case 7:if(!a2.c.CW){A.bi("EMIT STREAM LISTENING TRUE!!!!!!!!!!!!!!!!!!!!")
+a2.A(0,B.Cj)}q=1
 s=5
 break
 case 3:q=2
 b7=p
 f=A.V(b7)
-A.bj(f)
+A.bi(f)
 s=5
 break
 case 2:s=1
@@ -95456,7 +95455,7 @@ try{r=j.a
 q=j.c
 h.b=B.b.bb(r.a,new A.aj0(q)).ch
 h.a=B.b.bb(r.a,new A.aj1(q)).CW}catch(p){s=A.V(p)
-A.bj(s)}r=j.a
+A.bi(s)}r=j.a
 q=j.b
 o=j.d
 n=j.c
@@ -95488,7 +95487,7 @@ case 4:o=a2
 a=new A.cw(j.h(0,"UID"),o,t.fz)
 q.d.push(a)
 case 3:try{q.a.a=!B.b.bb(q.b.a,new A.aj_(q.e)).CW}catch(a0){n=A.V(a0)
-A.bj(n)}j=q.a
+A.bi(n)}j=q.a
 i=q.f
 h=q.e
 if(j.a){i.push(new A.cw(h.h(0,"UID"),h,t.fz))
@@ -95518,7 +95517,7 @@ $0(){return this.a0h()},
 a0h(){var s=0,r=A.x(t.H),q=this,p,o,n,m,l,k,j,i,h,g
 var $async$$0=A.y(function(a,b){if(a===1)return A.u(b,r)
 while(true)switch(s){case 0:g={}
-A.bj("")
+A.bi("")
 g.a=null
 try{g.a=B.b.bb(q.d,new A.aiV(q.e))}catch(f){}s=g.a==null?2:3
 break
@@ -95531,13 +95530,13 @@ case 4:o=b
 k=new A.cw(l.h(0,"UID"),o,t.fz)
 g.a=k
 q.d.push(k)
-case 3:A.bj("MARKER TAPPED")
+case 3:A.bi("MARKER TAPPED")
 try{l=q.b
 j=q.e
 i=q.a
 i.b=!B.b.bb(l.a,new A.aiW(j)).ch
 B.b.bb(l.b,new A.aiX(j)).at=i.b}catch(f){n=A.V(f)
-A.bj(n)}l=q.a
+A.bi(n)}l=q.a
 j=q.f
 i=j.x
 if(l.b)A.tZ(i).a1L(new A.aiY(l,q.b,g,q.c,q.e,j),t.z)
@@ -95573,7 +95572,7 @@ q=l.d
 p=l.a
 p.b=!B.b.bb(r.a,new A.aiM(q)).ch
 B.b.bb(r.b,new A.aiN(q)).at=p.b}catch(o){s=A.V(o)
-A.bj(s)}r=A.fI(l.e.x,t.u)
+A.bi(s)}r=A.fI(l.e.x,t.u)
 q=A.f(l.d.h(0,"UID"))
 p=l.b
 n=p.a
@@ -95720,7 +95719,7 @@ return A.C(o.at.B_(f,a.d),$async$u6)
 case 6:n=d
 m=J.qC(n)
 j=m
-A.bj("Registriert als: "+A.f(j==null?null:j.a.c.a.b))
+A.bi("Registriert als: "+A.f(j==null?null:j.a.c.a.b))
 s=7
 return A.C(A.je(A.d_(0,0,2),null,t.z),$async$u6)
 case 7:j=$.aIW()
@@ -95728,7 +95727,7 @@ l=A.f0(j,j.gc6().d5("User"))
 j=$.b2
 i=(j==null?$.b2=$.cy():j).cn(0,"[DEFAULT]")
 j=$.cX()
-A.bi(i,j,!0)
+A.bj(i,j,!0)
 h=A.jc(new A.c0(i))
 h=h.gdL(h)
 h=h==null?null:h.a.c.a.a
@@ -95736,7 +95735,7 @@ J.vh(l,h).rZ(0,A.a1(["Name",a.b+" "+a.c,"Email",f,"Rating",0,"NumberOfRatings",0
 f=o.c
 h=$.b2
 i=(h==null?$.b2=$.cy():h).cn(0,"[DEFAULT]")
-A.bi(i,j,!0)
+A.bj(i,j,!0)
 j=A.jc(new A.c0(i))
 j=j.gdL(j)
 f=f.ap6(B.kw,j==null?null:j.a.c.a.a)
@@ -95747,7 +95746,7 @@ break
 case 3:q=2
 e=p
 k=A.V(e)
-A.bj("Fehler beim Registrieren: "+A.f(k))
+A.bi("Fehler beim Registrieren: "+A.f(k))
 f=o.c.AR(B.kx)
 if(!b.d)b.a.$1(f)
 s=5
@@ -95779,7 +95778,7 @@ i=A.f0(a,a.gc6().d5("User"))
 a=$.b2
 f=(a==null?$.b2=$.cy():a).cn(0,"[DEFAULT]")
 a=$.cX()
-A.bi(f,a,!0)
+A.bj(f,a,!0)
 e=A.jc(new A.c0(f))
 e=e.gdL(e)
 e=e==null?null:e.a.c.a.a
@@ -95790,7 +95789,7 @@ s=!J.aNu(h)?10:11
 break
 case 10:e=$.b2
 f=(e==null?$.b2=$.cy():e).cn(0,"[DEFAULT]")
-A.bi(f,a,!0)
+A.bj(f,a,!0)
 e=A.jc(new A.c0(f))
 e=e.gdL(e)
 e=e==null?null:e.a.c.a.a
@@ -95805,7 +95804,7 @@ d=J.qC(j)
 d=d==null?null:d.a.c.a.b
 c=$.b2
 f=(c==null?$.b2=$.cy():c).cn(0,"[DEFAULT]")
-A.bi(f,a,!0)
+A.bj(f,a,!0)
 a=A.jc(new A.c0(f))
 a=a.gdL(a)
 a=e.apa(d,B.kw,a==null?null:a.a.c.a.a)
@@ -95816,7 +95815,7 @@ break
 case 3:q=2
 a0=p
 g=A.V(a0)
-A.bj("Fehler bei der Google-Anmeldung: "+A.f(g))
+A.bi("Fehler bei der Google-Anmeldung: "+A.f(g))
 a=o.c.AR(B.kx)
 if(!a2.d)a2.a.$1(a)
 s=5
@@ -95827,16 +95826,16 @@ case 5:return A.v(null,r)
 case 1:return A.u(p,r)}})
 return A.w($async$mn,r)}}
 A.anv.prototype={
-$1(a){A.bj("Daten erfolgreich hinzugef\xfcgt")},
+$1(a){A.bi("Daten erfolgreich hinzugef\xfcgt")},
 $S:10}
 A.anw.prototype={
-$1(a){A.bj("Fehler beim Hinzuf\xfcgen der Daten: "+A.f(a))},
+$1(a){A.bi("Fehler beim Hinzuf\xfcgen der Daten: "+A.f(a))},
 $S:8}
 A.ant.prototype={
-$1(a){A.bj("Daten erfolgreich hinzugef\xfcgt")},
+$1(a){A.bi("Daten erfolgreich hinzugef\xfcgt")},
 $S:10}
 A.anu.prototype={
-$1(a){A.bj("Fehler beim Hinzuf\xfcgen der Daten: "+A.f(a))},
+$1(a){A.bi("Fehler beim Hinzuf\xfcgen der Daten: "+A.f(a))},
 $S:8}
 A.ct.prototype={
 mC(a,b,c,d,e,f,g){var s=this,r=d==null?s.a:d,q=f==null?s.b:f,p=a==null?s.c:a,o=g==null?s.d:g,n=b==null?s.e:b,m=c==null?s.f:c
@@ -96049,7 +96048,7 @@ l=B.b.gU(m.b.b.a)
 e=a
 e.toString
 e=g.a(e.b).dj(0,l)
-A.bi(e,$.AV(),!0)
+A.bj(e,$.AV(),!0)
 s=15
 return A.C(e.oc(0),$async$qz)
 case 15:case 13:j.length===i||(0,A.K)(j),++f
@@ -96057,14 +96056,14 @@ s=12
 break
 case 14:s=10
 break
-case 11:A.bj("Keine Dokumente gefunden, die der Abfrage entsprechen.")
+case 11:A.bi("Keine Dokumente gefunden, die der Abfrage entsprechen.")
 case 10:case 7:q=1
 s=5
 break
 case 3:q=2
 c=p
 k=A.V(c)
-A.bj("Fehler bei der Abfrage: "+A.f(k))
+A.bi("Fehler bei der Abfrage: "+A.f(k))
 s=5
 break
 case 2:s=1
@@ -96088,7 +96087,7 @@ case 2:p=A.b([],t.H7)
 for(g=J.ad(e),o=t.z;g.p();){n=g.gF(g)
 p.push(A.a1(["latitude",n.a,"longitude",n.b],j,o))}g=$.b2
 m=(g==null?$.b2=$.cy():g).cn(0,"[DEFAULT]")
-A.bi(m,$.cX(),!0)
+A.bj(m,$.cX(),!0)
 g=A.jc(new A.c0(m))
 g=g.gdL(g)
 g=g==null?null:g.a.c.a.a
@@ -96105,21 +96104,21 @@ if(e==null){e=h.e
 d=$.PQ
 if(d==null){d=$.b2
 c=(d==null?$.b2=$.cy():d).cn(0,"[DEFAULT]")
-A.bi(c,$.cX(),!0)
+A.bj(c,$.cX(),!0)
 d=$.a5y()
 b=new A.Em(new A.c0(c),"(default)")
 a=$.c9()
 a.a.set(b,d)
 $.PQ=b
 d=b}e=h.c=d.vi(g,e)}e=new A.zW(h,e.d5("invites"))
-A.bi(e.gc6(),$.qA(),!0)
+A.bj(e.gc6(),$.qA(),!0)
 e=p.a(e.b).dj(0,f)
-A.bi(e,$.AV(),!0)
+A.bj(e,$.AV(),!0)
 for(d=B.b.ga2(a4),b=new A.fh(d,new A.aqn(f),i),a0="";b.p();){a1=d.gF(d).b
 a0=a0!==""?a0+(";"+A.f(a1)):a1}e=new A.zW(new A.uV(e,h).b,e.a.d5(B.b.aW(e.b.a,"/")+"/"+(A.f(f)+"-Invites")))
-A.bi(e.gc6(),$.qA(),!0)
+A.bj(e.gc6(),$.qA(),!0)
 e=p.a(e.b).dj(0,o)
-A.bi(e,$.AV(),!0)
+A.bj(e,$.AV(),!0)
 d=A.axl(A.a1(["UID",a3,"driveID",o,"Users",a2,"Status","Ausstehend","Role",a0],l,k))
 d.toString
 e.nz(0,d,null).aN(0,new A.aqo(),j).e8(new A.aqp())}return A.v(null,r)}})
@@ -96130,12 +96129,12 @@ var $async$xb=A.y(function(d,e){if(d===1)return A.u(e,r)
 while(true)switch(s){case 0:o=$.b2
 n=(o==null?$.b2=$.cy():o).cn(0,"[DEFAULT]")
 o=$.cX()
-A.bi(n,o,!0)
+A.bj(n,o,!0)
 q=A.oz(new A.c0(n))
 p=A.f0(q,q.gc6().d5("drives")).dj(0,c)
 q=$.b2
 n=(q==null?$.b2=$.cy():q).cn(0,"[DEFAULT]")
-A.bi(n,o,!0)
+A.bj(n,o,!0)
 s=2
 return A.C(A.oz(new A.c0(n)).Dq(new A.aqu(p,a,b),t.P),$async$xb)
 case 2:return A.v(null,r)}})
@@ -96185,7 +96184,7 @@ b=J.d(l,"")
 c=c.b
 if(!b)l=J.aIZ(l,";"+A.f(c))
 else l=c}try{J.bq(o,A.a1(["uid",a6,"username",B.b.bb(a8,new A.apX()).z,"numPers",B.b.bb(a8,new A.apY()).ay,"latitude",B.b.bb(a8,new A.apZ()).b.a,"longitude",B.b.bb(a8,new A.aq_()).b.b,"originText",B.b.bb(a8,new A.aq0()).Q,"originId",B.b.bb(a8,new A.aq1()).at,"latitudeDest",B.b.bb(a8,new A.aq2()).cx.a,"longitudeDest",B.b.bb(a8,new A.aq3()).cx.b,"destinationText",B.b.bb(a8,new A.aq5()).as,"destinationId",B.b.bb(a8,new A.aq6()).ax,"role",l,"inviteStatus","Angenommen","owner",!0,"priceUser",g*B.b.bb(b3,new A.aq7()).b],f,e))}catch(b4){k=A.V(b4)
-A.bj(k)}a5.push(a6)
+A.bi(k)}a5.push(a6)
 a2=A.b([],j)
 for(j=J.ad(a7.a);j.p();){h=j.gF(j)
 a2.push(A.a1(["latitude",h.a,"longitude",h.b],f,e))}j=p.b
@@ -96268,19 +96267,19 @@ A.aqm.prototype={
 $1(a){return a.glu(a)},
 $S:664}
 A.apQ.prototype={
-$1(a){A.bj("Daten erfolgreich hinzugef\xfcgt")},
+$1(a){A.bi("Daten erfolgreich hinzugef\xfcgt")},
 $S:665}
 A.apR.prototype={
-$1(a){A.bj("Fehler beim Hinzuf\xfcgen der Daten: "+A.f(a))},
+$1(a){A.bi("Fehler beim Hinzuf\xfcgen der Daten: "+A.f(a))},
 $S:8}
 A.aqn.prototype={
 $1(a){return J.qB(a.a,this.a)},
 $S:44}
 A.aqo.prototype={
-$1(a){A.bj("Daten erfolgreich hinzugef\xfcgt")},
+$1(a){A.bi("Daten erfolgreich hinzugef\xfcgt")},
 $S:10}
 A.aqp.prototype={
-$1(a){A.bj("Fehler beim Hinzuf\xfcgen der Daten: "+A.f(a))},
+$1(a){A.bi("Fehler beim Hinzuf\xfcgen der Daten: "+A.f(a))},
 $S:8}
 A.aqu.prototype={
 $1(a){return this.a0k(a)},
@@ -96314,21 +96313,21 @@ o.push(A.a1(["latitude",g,"longitude",f,"originText",e,"latitudeDest",d,"longitu
 a8=B.b.aW(a8.a.b.a,"/")
 n=A.axl(n)
 n.toString
-A.bj(A.aSc(b0.a,b0.b.eM(0,a8,n)))
+A.bi(A.aSc(b0.a,b0.b.eM(0,a8,n)))
 return A.v(null,r)}})
 return A.w($async$$1,r)},
 $S:667}
 A.aqq.prototype={
-$1(a){return A.bj("Dokument erfolgreich aktualisiert")},
+$1(a){return A.bi("Dokument erfolgreich aktualisiert")},
 $S:66}
 A.aqr.prototype={
-$1(a){return A.bj(u.Z+A.f(a))},
+$1(a){return A.bi(u.Z+A.f(a))},
 $S:7}
 A.aqs.prototype={
-$1(a){return A.bj("Dokument erfolgreich aktualisiert")},
+$1(a){return A.bi("Dokument erfolgreich aktualisiert")},
 $S:66}
 A.aqt.prototype={
-$1(a){return A.bj(u.Z+A.f(a))},
+$1(a){return A.bi(u.Z+A.f(a))},
 $S:7}
 A.apS.prototype={
 $1(a){return J.qB(a.a,this.a)},
@@ -96403,11 +96402,11 @@ A.aq7.prototype={
 $1(a){return J.d(a.a,"me")},
 $S:215}
 A.aq8.prototype={
-$1(a){A.bj("Dokument erfolgreich hinzugef\xfcgt mit benutzerdefinierter ID: "+this.a.a)
+$1(a){A.bi("Dokument erfolgreich hinzugef\xfcgt mit benutzerdefinierter ID: "+this.a.a)
 B.b.D(this.b,this.c)},
 $S:10}
 A.aq9.prototype={
-$1(a){A.bj("Fehler beim Hinzuf\xfcgen des Dokuments: "+A.f(a))},
+$1(a){A.bi("Fehler beim Hinzuf\xfcgen des Dokuments: "+A.f(a))},
 $S:8}
 A.aqh.prototype={
 $2(a,b){var s,r=a.a*3.141592653589793/180,q=b.a*3.141592653589793/180,p=(q-r)/2
@@ -96467,7 +96466,7 @@ A.Pg.prototype={
 E(a){return A.dz(null,new A.aaD(this,A.bI(a,!0,t.Ro)),t.a9,t.ma)}}
 A.aaD.prototype={
 $2(a,b){var s,r=$.b2,q=(r==null?$.b2=$.cy():r).cn(0,"[DEFAULT]")
-A.bi(q,$.cX(),!0)
+A.bj(q,$.cX(),!0)
 r=A.oz(new A.c0(q))
 s=this.a
 return A.aKW(new A.aaC(s,this.b),A.f0(r,r.gc6().d5("drives")).dj(0,s.e).pd(),t.Pi)},
@@ -96497,7 +96496,7 @@ a3=A.fF(k.h(l,"owner"))&&k.h(l,"owner")
 a4=typeof k.h(l,b9)=="number"?k.h(l,b9):0
 if(c===n.a.a)m.w=a3
 q.push(new A.pP(j,i,h,g,f,e,d,c,b,a,a0,a1,a2,a3,a4,o))}if(s.h(c1,"driveStarted")&&!m.w&&!m.x){m.x=!0
-A.bj("Fahrt gestartet")
+A.bi("Fahrt gestartet")
 a5=A.b([],t.xf)
 for(c1=m.d,s=c1.length,p=t.uG,o=t.ul,a6=0;a6<c1.length;c1.length===s||(0,A.K)(c1),++a6){a7=c1[a6]
 n=a7.Q
@@ -96527,7 +96526,7 @@ return A.DV(s,A.bn(r.y+", Status: "+r.z,s,s,s,s,s,s),q,s)},
 $S:676}
 A.aaB.prototype={
 $0(){var s,r,q,p,o,n,m,l,k,j="delivery"
-A.bj("Fahrt gestartet")
+A.bi("Fahrt gestartet")
 s=this.a
 s.f.Mc(!0,s.e)
 r=A.b([],t.xf)
@@ -96548,7 +96547,7 @@ A.Ph.prototype={
 E(a){var s,r,q,p,o,n,m,l,k=this
 k.y=!0
 s=k.r
-A.bj(s.length)
+A.bi(s.length)
 for(r=s.length,q=k.f,p=A.Z(q).i("aH<1>"),o=0;o<s.length;s.length===r||(0,A.K)(s),++o){n=s[o]
 m=new A.aH(q,new A.aaM(n),p)
 if(!m.ga2(m).p())B.b.D(s,n)}l=A.bI(a,!0,t.Ro)
@@ -96564,7 +96563,7 @@ $2(a,b){return a.a!==b.a},
 $S:679}
 A.aaO.prototype={
 $2(a,b){var s,r=$.b2,q=(r==null?$.b2=$.cy():r).cn(0,"[DEFAULT]")
-A.bi(q,$.cX(),!0)
+A.bj(q,$.cX(),!0)
 r=A.oz(new A.c0(q))
 s=this.a
 return A.aKW(new A.aaL(s,this.b,b,this.c),A.f0(r,r.gc6().d5("drives")).dj(0,s.c).pd(),t.Pi)},
@@ -96647,10 +96646,10 @@ else s.b=new A.E1(B.o4,0,null)
 return new A.wG($.aMP().m_(0,s.af()),new A.ajE(this),null,t.Xd)},
 a1w(a){var s,r
 try{this.c.L4(a,15)}catch(r){s=A.V(r)
-A.bj(s)}},
+A.bi(s)}},
 atU(a,b){var s,r
 try{this.c.L4(a,b)}catch(r){s=A.V(r)
-A.bj(s)}},
+A.bi(s)}},
 atT(a,b){var s,r,q
 try{r=this.c
 r.L4(a,b)
@@ -96658,8 +96657,8 @@ r=r.b
 r===$&&A.a()
 r=r.p4
 r===$&&A.a()
-A.bj(r)}catch(q){s=A.V(q)
-A.bj(s)}}}
+A.bi(r)}catch(q){s=A.V(q)
+A.bi(s)}}}
 A.ajE.prototype={
 $2(a,b){var s,r={},q=r.a=new A.aX(0,0),p=b.b
 if(p!=null){s=r.a=new A.aX(p.a,p.b)
@@ -96684,7 +96683,7 @@ $2(a,b){return!a.at.k(0,b.at)||a.dx!==b.dx||a.z!==b.z||a.Q!==b.Q},
 $S:71}
 A.ajB.prototype={
 $2(a,b){var s,r,q,p,o,n,m,l,k,j=this,i=null
-A.bj("BUILD MAP!!!!!")
+A.bi("BUILD MAP!!!!!")
 s=t.u
 r=A.dq(a,new A.ajo(),s,t.uj)
 if(r.a!==0&&r.b!==0){q=j.b
@@ -96697,7 +96696,7 @@ try{q=j.b.c.b
 q===$&&A.a()
 q=q.p4
 q===$&&A.a()
-A.bj(q)}catch(n){}q=A.aKl(j.a.a,17,1,new A.aju(),new A.ajv(b,a),b.cy)
+A.bi(q)}catch(n){}q=A.aKl(j.a.a,17,1,new A.aju(),new A.ajv(b,a),b.cy)
 p=A.aL6(u.h,"com.example.share_x")
 m=J.a5P(A.dq(a,new A.ajw(),s,t.ej),new A.ajx())
 l=t.R4
@@ -97410,7 +97409,7 @@ A.aKt(s,A.k8(new A.aif(),null,t.z))}},
 $S:243}
 A.aif.prototype={
 $1(a){var s=$.b2,r=(s==null?$.b2=$.cy():s).cn(0,"[DEFAULT]")
-A.bi(r,$.cX(),!0)
+A.bj(r,$.cX(),!0)
 return new A.mR(new A.u4(new A.wH(),A.oz(new A.c0(r))),new A.xk(),null)},
 $S:130}
 A.YO.prototype={
@@ -97486,7 +97485,7 @@ $1(a){var s,r,q,p,o,n
 A.aRn(a,t.A9)
 s=$.b2
 r=(s==null?$.b2=$.cy():s).cn(0,"[DEFAULT]")
-A.bi(r,$.cX(),!0)
+A.bj(r,$.cX(),!0)
 s=A.jc(new A.c0(r))
 q=A.b([],t.aU)
 p=A.b([],t._X)
@@ -97534,7 +97533,7 @@ A.aKt(s,A.k8(new A.anx(),null,t.z))}},
 $S:243}
 A.anx.prototype={
 $1(a){var s=$.b2,r=(s==null?$.b2=$.cy():s).cn(0,"[DEFAULT]")
-A.bi(r,$.cX(),!0)
+A.bj(r,$.cX(),!0)
 return new A.mR(new A.u4(new A.wH(),A.oz(new A.c0(r))),new A.xk(),null)},
 $S:130}
 A.YP.prototype={
@@ -97624,7 +97623,7 @@ $1(a){return new A.nu($.b0())},
 $S:731}
 A.aIn.prototype={
 $1(a){var s=$.b2,r=(s==null?$.b2=$.cy():s).cn(0,"[DEFAULT]")
-A.bi(r,$.cX(),!0)
+A.bj(r,$.cX(),!0)
 return A.aQ_(new A.xk(),new A.u4(new A.wH(),A.oz(new A.c0(r))))},
 $S:237}
 A.Bq.prototype={
@@ -97659,7 +97658,7 @@ q.r!==$&&A.bS()
 q.r=new A.apP()
 s=$.b2
 r=(s==null?$.b2=$.cy():s).cn(0,"[DEFAULT]")
-A.bi(r,$.cX(),!0)
+A.bj(r,$.cX(),!0)
 s=A.oz(new A.c0(r))
 q.e!==$&&A.bS()
 q.e=new A.u4(new A.wH(),s)
@@ -98747,27 +98746,27 @@ A.aIk.prototype={
 $0(){var s,r,q,p=null,o=$.aYF()
 A.aJS("firestore",p)
 s=A.aPe(p,p)
-A.bi(s,$.a5y(),!0)
+A.bj(s,$.a5y(),!0)
 $.PQ=s
 A.b15(o)
 s=$.aMN()
 r=new A.acN()
 q=$.c9()
 q.l(0,r,s)
-A.bi(r,s,!0)
+A.bj(r,s,!0)
 $.b18=r
 A.aJS("messaging",p)
 r=$.aWi()
 s=new A.ad0()
 q.l(0,s,r)
-A.bi(s,r,!0)
+A.bj(s,r,!0)
 r=window.navigator.geolocation
 r.toString
 window.navigator.permissions
 s=$.aMQ()
 r=new A.aeH(new A.agb(r))
 q.l(0,r,s)
-A.bi(r,s,!0)
+A.bj(r,s,!0)
 $.b1t=r
 s=new A.bQ(p,p,t.Vr)
 r=$.aMR()
@@ -98777,7 +98776,7 @@ q=document.querySelector("meta[name=google-signin-client_id]")
 s.e=q==null?p:q.getAttribute("content")
 s.ajg()
 s.a=A.baE()
-A.bi(s,r,!0)
+A.bj(s,r,!0)
 $.b1w=s
 $.aVD=o.gar3()},
 $S:0};(function aliases(){var s=A.a1F.prototype
